@@ -1,0 +1,141 @@
+body{
+ width: 100%;
+}
+#first{
+    position:relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    display: flex;
+    background-color:azure;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.nav{
+    border: 0.5px solid gray;
+margin-top: 10px;
+    height:30px;
+  margin-left: 20px;
+    display: flex;
+    overflow: hidden;
+    text-decoration: none; 
+    width: 100%;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+    padding: 5px;
+    font-size:20px;
+    overflow: hidden;
+} 
+.nav a:hover{
+    border-radius: 5px;
+    border-width: inherit;
+    background-color:black;
+  color:white;
+}
+.nav-btn{
+    cursor: pointer;
+    margin-left: 20px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+.nav-btn:hover{
+    background-color: brown;
+    color: white;
+}
+.search input{
+    margin-left: 20px;
+    height: 29px;
+    margin-top: 11px;
+    width: 300px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.icon i{
+    cursor: pointer;
+    margin-top: 11px;
+    display: flex;
+    font-size: 27px;
+    width: 5px;
+    
+}
+
+@media only screen and (max-width: 820px) {
+    .text {font-size: 11px}
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 9.6s ease;
+  }
+  /* this is text with image  */
+  .text{
+    display: flex;
+  }
+  .text img{
+   width: 500px;
+   height: 300px;
+  }
+  .text-h1{
+    margin:90px;
+   text-align: center;
+  }
+  #second{
+    display:flex;
+    margin-top: 5%;
+    margin-left: 2px;
+  }
+  .short{
+    cursor:pointer;
+    width: 45%;
+    text-align: center;
+   height: 50px;
+    border: 1px solid gray;
+    color:black;
+    margin-right: 40px;
+    margin-left: 30px;
+    border-radius: 5px;
+  }
+  .filter{
+    cursor: pointer;
+    width: 45%;
+    height: 50px;
+    text-align: center;
+border: 1px solid gray;
+border-radius: 5px;
+    color:black;
+  }
+  /* this is third section css*/
+  .watchs{
+    display: flex;
+    width: 100%;
+  }
+  .wa1{
+    cursor: pointer;
+    margin: 2%;
+    width: 30%;
+    height:auto;
+    border: 1px solid gray;
+  }
+  .wa1 a,h4,h3,span,strike{
+    width: 100%;
+
+  }
+  .wa1 img{
+    width: 100%;
+  }
